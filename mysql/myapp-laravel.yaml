@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-laravel
+data:
+  APP_DEBUG: "true"
+  APP_ENV: local
+  APP_KEY: base64:ttqIplySwvnndwaWcgPA3D9Ebeb+t8WT4aBugizsG7E=
+  APP_LOG_LEVEL: debug
+  APP_NAME: "My App"
+  APP_URL: http://myapp.com
+  DB_CONNECTION: mysql
+  DB_DATABASE: homestead
+  DB_HOST: mysql
+  DB_PASSWORD: secret
+  DB_PORT: "3306"
+  DB_USERNAME: homestead
