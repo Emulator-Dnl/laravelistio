@@ -19,7 +19,7 @@ spec:
       enableServiceLinks: false
       containers:
         - name: php
-          image: emulatordnl/laravelistio:1.0.2
+          image: emulatordnl/mycampaignweb:1.0.4
           imagePullPolicy: Always
           volumeMounts:
             - name: code
@@ -27,7 +27,7 @@ spec:
           lifecycle:
             postStart:
               exec:
-                command: [ "/bin/sh", "-c", "cp -r /var/www/html/. /code" ]
+                command: [ "/bin/sh", "-c", "sudo cp -r /var/www/html/. /code" ]
       volumes:
         - name: code
           persistentVolumeClaim:

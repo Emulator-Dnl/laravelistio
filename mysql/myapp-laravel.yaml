@@ -5,7 +5,7 @@ metadata:
 data:
   APP_DEBUG: "true"
   APP_ENV: local
-  APP_KEY: base64:ttqIplySwvnndwaWcgPA3D9Ebeb+t8WT4aBugizsG7E=
+  APP_KEY: base64:agXsvRuynq8IzPjgQl72eASoi1EZ5UD8I2Tk3F2ku3A=
   APP_LOG_LEVEL: debug
   APP_NAME: "My App"
   APP_URL: http://myapp.com
